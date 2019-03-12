@@ -8,7 +8,7 @@ Calculates change in dollars, quarters, dimes, nickels, & pennies.
 $ npm i
 ```
 
-#Run
+# Run
 ```
 $ npm start
 ```
