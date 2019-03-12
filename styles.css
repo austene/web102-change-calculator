@@ -34,4 +34,7 @@ span {
     transition-duration: 0.2s;
 }
 
-
+output {
+    padding: 10px;
+    margin: 10px;
+}
