@@ -1,6 +1,4 @@
 // Write your JavaScript here
-
-
 function handleClickEvent (e) {
     var amountDue = document.getElementById ("amount-due").value;
     var amountReceived = document.getElementById ("amount-received").value;
@@ -8,8 +6,11 @@ function handleClickEvent (e) {
     var amountDueInPennies = 100 * amountDue;
     var amountReceivedInPennies = 100 * amountReceived;
 
+    var amountDueInPenniesRounded = Math.round (amountDueInPennies);
+    var amountReceivedInPenniesRounded = Math.round (amountReceivedInPennies);
+
     var coins = [100, 25, 10, 5, 1];
-    var amountLeft = amountReceivedInPennies - amountDueInPennies;
+    var amountLeft = amountReceivedInPenniesRounded - amountDueInPenniesRounded;
     var results = [];
 
     coins.forEach(function (coin) {
