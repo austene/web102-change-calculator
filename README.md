@@ -1,9 +1,9 @@
 # web102-change-calculator
 
-##Purpose of Program
+## Purpose of Program
 Calculates change in dollars, quarters, dimes, nickels, & pennies.
 
-##Setup
+## Setup
 ```
 $ npm i
 ```
